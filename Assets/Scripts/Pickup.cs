@@ -14,6 +14,11 @@ public class Pickup : MonoBehaviour
     public GameObject tempParent;
     public bool isHolding = false;
 
+    public float testForce;
+
+    JoyconDemo control;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,8 +28,8 @@ public class Pickup : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-       distance = Vector3.Distance(item.transform.position, tempParent.transform.position); //check if within grabbing distance of the player 
+
+        distance = Vector3.Distance(item.transform.position, tempParent.transform.position); //check if within grabbing distance of the player 
         if (distance >= 2f)
         {
             isHolding = false;
@@ -37,7 +42,7 @@ public class Pickup : MonoBehaviour
             item.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
             item.transform.SetParent(tempParent.transform);
 
-            
+
         }
         else
         {
@@ -46,6 +51,8 @@ public class Pickup : MonoBehaviour
             item.GetComponent<Rigidbody>().useGravity = true;
             item.transform.position = objectPos;
         }
+
+        testForce = control.getForce();
     }
 
     void OnMouseDown()
@@ -66,6 +73,6 @@ public class Pickup : MonoBehaviour
         }
         isHolding = false;
 
-        
+
     }
 }

@@ -6,7 +6,7 @@ public class BowlingPin : MonoBehaviour
 {
 
     public Transform pin;
-    public float threshold = .6f;
+    public float threshold = 0.00006f;
     public int point = 1;
     public Score score;
 
@@ -18,7 +18,7 @@ public class BowlingPin : MonoBehaviour
     void CheckItFell()
     {
         try {
-            if (pin.up.y < threshold)
+            if (pin.up.y <= threshold)
             {
                 score.Add(point);
                 gameObject.GetComponent<Collider>().enabled = false;
@@ -34,6 +34,8 @@ public class BowlingPin : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         CheckItFell();
+        //score.Add(point);
+       // gameObject.GetComponent<Collider>().enabled = false;
     }
 
     // Start is called before the first frame update

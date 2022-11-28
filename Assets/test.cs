@@ -4,39 +4,36 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class Score : MonoBehaviour
+public class test : MonoBehaviour
 {
-    public int score = 0;
+    public float score = 0;
     public Text text;
     public float timer = 300;
 
 
-    public void Add(int ammount)
-    {
-        score += ammount;
-        UpdateDisplay();
-        timer = 300;
-    }
+    JoyconDemo control;
 
     // Start is called before the first frame update
     void Start()
     {
 
-        score = 0;
+        //score = 0;
         UpdateDisplay();
     }
 
-
     void Update()
     {
-        timer = timer - 1;
-        if (timer <= 0) { score = 0; UpdateDisplay(); }
+        score = control.getForce();
+
+        UpdateDisplay();
+
     }
+
 
     // Update is called once per frame
     void UpdateDisplay()
     {
-        text.text = "Score " + score;
-        
+        text.text = "test " + score;
+
     }
 }
