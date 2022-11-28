@@ -5,7 +5,7 @@ using UnityEngine;
 public class Pickup : MonoBehaviour
 {
     //Variables
-    float throwForce = 600;
+    float throwForce = 6000;
     Vector3 objectPos;
     float distance;
 
