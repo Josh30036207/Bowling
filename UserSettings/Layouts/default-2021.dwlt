@@ -48,7 +48,11 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 17
+=======
+  controlID: 50
+>>>>>>> d5de583ad0a918e946f46ae5f5afefdf510d8a5f
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +72,8 @@ MonoBehaviour:
     y: 0
     width: 454
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -94,8 +98,8 @@ MonoBehaviour:
     y: 0
     width: 363
     height: 561
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -317,22 +321,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets
+=======
+    - Assets/Scenes
+>>>>>>> d5de583ad0a918e946f46ae5f5afefdf510d8a5f
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< HEAD
   - Assets
+=======
+  - Assets/Scenes
+>>>>>>> d5de583ad0a918e946f46ae5f5afefdf510d8a5f
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\joshu\Desktop\Bowling Assignment\Bowling
+  m_LastProjectPath: C:\Users\joshu\Desktop\New folder\Bowling
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 75}
+<<<<<<< HEAD
     m_SelectedIDs: 5e5b0000
     m_LastClickedID: 23390
     m_ExpandedIDs: 000000005e5b000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: aa800000
+    m_LastClickedID: 32938
+    m_ExpandedIDs: 00000000a480000000ca9a3bffffff7f
+>>>>>>> d5de583ad0a918e946f46ae5f5afefdf510d8a5f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +378,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 000000005e5b0000
+=======
+    m_ExpandedIDs: 
+>>>>>>> d5de583ad0a918e946f46ae5f5afefdf510d8a5f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -490,7 +512,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 281}
       m_SelectedIDs: 6a5b0000
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: 56a3feff32fbffff385a0000a05a0000b05a0000dc5a0000
+=======
+      m_ExpandedIDs: f2d0ffffccd2ffff
+>>>>>>> d5de583ad0a918e946f46ae5f5afefdf510d8a5f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -792,9 +818,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.006771433, y: 0.98528767, z: -0.16589819, w: -0.040499613}
   m_Size:
+<<<<<<< HEAD
     m_Target: 222.90694
     speed: 2
     m_Value: 213.30807
+=======
+    m_Target: 17.449814
+    speed: 2
+    m_Value: 17.449814
+>>>>>>> d5de583ad0a918e946f46ae5f5afefdf510d8a5f
   m_Ortho:
     m_Target: 0
     speed: 2
